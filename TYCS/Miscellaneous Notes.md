@@ -3,15 +3,6 @@
 Sorting is a fundamental operation in computer science and there are several efficient algorithms for it, such as quicksort, merge sort and heap sort.
 ### Quicksort
 A Divide and Conquer algorithm that chooses a "pivot" element from the array and partitions the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
-```js
-function quicksort(arr) {
-  if (arr.length <= 1) {
-    return arr;
-  }
-  let mid = arr.slice(arr.length
-}
-```
-
 
 ## Search Algorithms
 Searching for an element in a large dataset is a common task and there are several efficient algorithms for it, such as binary search and hash tables 
